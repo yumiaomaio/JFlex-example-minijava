@@ -1,0 +1,3 @@
+// Error Example 2: Invalid symbol
+int price = 50;
+int total = price + $5; // The '$' is a lexical error

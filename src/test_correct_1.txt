@@ -1,0 +1,5 @@
+// Correct Example 1: Declaration and Selection
+int value = 10;
+if (value > 5) {
+    System.out.println("Greater");
+}

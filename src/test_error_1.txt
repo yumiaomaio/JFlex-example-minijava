@@ -1,0 +1,2 @@
+// Error Example 1: Invalid character in identifier
+int my@var = 100;
