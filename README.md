@@ -88,7 +88,7 @@ felx-java/
     ```bash
     # 重新编译
     javac src/*.java
-
+    
     # 运行
     java -cp src Main
     ```
@@ -96,7 +96,9 @@ felx-java/
 ## 工作流程图
 
 下面是项目从准备到执行的完整流程。
-![Process Flowchart](felx-process-flow-0.png)
+
+<img src="felx-process-flow-0.png" alt="Process Flowchart" style="zoom:50%;" />
+
 ![Process Flowchart](felx-process-flow-1.png)
 
 ## 时序图

@@ -34,7 +34,7 @@ public class Main {
             try (Reader reader = new FileReader(filePath)) {
                 Scanner scanner = new Scanner(reader);
 
-                System.out.printf("%-20s\t%-20s\t%s%n", "Lexeme", "Token Type", "Token");
+                System.out.printf("%-20s\t%-20s\t%s%n", "Lexeme", "Token Type", "");
                 System.out.println("-------------------------------------------------------------------");
 
                 Token token;
@@ -43,7 +43,7 @@ public class Main {
                         System.out.printf("!!! Lexical Error: Unexpected character '%s' at line %d, column %d%n",
                                 token.lexeme, token.line, token.column);
                     }
-                    System.out.printf("%-20s\t%-20s\t%s%n", token.lexeme, token.type, token.type);
+                    System.out.printf("%-20s\t%-20s\t%s%n", token.lexeme, token.type, "");
                 }
 
             } catch (IOException e) {
